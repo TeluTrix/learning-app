@@ -12,6 +12,7 @@
             </a>
           </div>
         </div>
+        <!-- <Card question="are you?" answer="i am" /> -->
       </div>
     </div>
   </div>
@@ -19,9 +20,11 @@
 
 <script>
 import router from "../router";
+import Card from "../components/Card.vue";
 
 export default {
   name: "HomeView",
+  components: {Card},
   data() {
     return {
       routePrefix: "/",
