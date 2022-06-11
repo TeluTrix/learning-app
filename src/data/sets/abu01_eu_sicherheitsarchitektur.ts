@@ -1,4 +1,4 @@
-export const questions = [
+export const abu01_eu_sicherheitsarchitektur = [
     {
         "question": "Wie viele Staaten umfasst der Europarat?",
         "answer": "47 Staaten"
